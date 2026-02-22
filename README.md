@@ -1,17 +1,17 @@
-﻿# KAIT OS Architecture Showcase
+# KAIT OS Architecture Showcase
 *(Knowledge Architect Intelligence Technology)*
 
 ![KAIT Studio](./assets/kait_studio.png)
 
 ## Overview
-KAIT OS???⑥닚??LLM ?섑띁(Wrapper)媛 ?꾨땶, ?덇굅???쒖뒪?쒓낵 AI ?먯씠?꾪듃瑜??듯빀?섏뿬 ?덉륫 媛?ν븳 鍮꾩쫰?덉뒪 ?뚰겕?뚮줈?곕? 援ъ꽦?섎뒗 **?뷀꽣?꾨씪?댁쫰 ?ㅼ쨷 ?먯씠?꾪듃 ?댁쁺泥댁젣(Multi-Agent OS)**?낅땲??
+KAIT OS는 단순한 LLM 래퍼(Wrapper)가 아닌, 레거시 시스템과 AI 에이전트를 통합하여 예측 가능한 비즈니스 워크플로우를 구성하는 **엔터프라이즈 다중 에이전트 운영체제(Multi-Agent OS)**입니다.
 
 ## Key Features
-- **Universal Tool Calling Protocol (UTCP):** ?뚰렪?붾맂 湲곗뾽 API瑜??⑥씪 洹쒓꺽?쇰줈 異붿긽?뷀븯??AI ?꾧뎄 ?앺깭怨꾨줈 ?듯빀
-- **Graph Orchestration & Execution State:** ?κ린 ?ㅽ뻾(Long-running) 鍮꾨룞湲??붿쭊. ?몃뱶 ?⑥쐞 ?곴뎄 ?곹깭 異붿쟻???듯븳 ?먯쑉 ?먮윭 蹂듦뎄 諛??ъ떆??吏??
-- **Human-in-the-Loop (HITL) Native:** 以묒슂 ?명봽???묎렐 諛??꾪뿕 ?묒뾽 ??愿由ъ옄 ?뱀씤??媛뺤젣?섎뒗 蹂댁븞 ?듭젣
-- **Multi-Tenant MCP:** 沅뚰븳 ?뺤콉 湲곕컲 ?꾧뎄 ?ㅽ뻾 ?쒖뼱 諛??뚮꼳??遺??怨좉컼) 寃⑸━
+- **Universal Tool Calling Protocol (UTCP):** 파편화된 기업 API를 단일 규격으로 추상화하여 AI 도구 생태계로 통합
+- **Graph Orchestration & Execution State:** 장기 실행(Long-running) 비동기 엔진. 노드 단위 영구 상태 추적을 통한 자율 에러 복구 및 재시작 지원
+- **Human-in-the-Loop (HITL) Native:** 중요 인프라 접근 및 위험 작업 시 관리자 승인을 강제하는 보안 통제
+- **Multi-Tenant MCP:** 권한 정책 기반 도구 실행 제어 및 테넌트(부서/고객) 격리
 
 ## Core Architecture Detail
-蹂???μ냼???듭떖 ?꾪궎?띿쿂 ?ㅺ퀎 ?ъ긽? ?꾨옒 臾몄꽌瑜??듯빐 ?뺤씤?섏떎 ???덉뒿?덈떎. (肄붿뼱 ?뚯뒪肄붾뱶??B2B ?쇱씠?좎뒪 蹂댄샇瑜??꾪빐 Private?쇰줈 愿由щ맗?덈떎.)
-?몛 [KAIT_OS_MAIN_ARCHITECTURE.md](./KAIT_OS_MAIN_ARCHITECTURE.md)
+본 저장소의 핵심 아키텍처 설계 사상은 아래 문서를 통해 확인하실 수 있습니다. (코어 소스코드는 B2B 라이선스 보호를 위해 Private으로 관리됩니다.)
+👉 [KAIT_OS_MAIN_ARCHITECTURE.md](./KAIT_OS_MAIN_ARCHITECTURE.md)
