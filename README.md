@@ -2,6 +2,7 @@
 > 기업의 레거시 시스템과 다중 AI 에이전트를 완벽히 통합하는 독자적 AI 운영체제
 
 ![KAIT Studio](./assets/kait_studio.png)
+![KAIT Studio](./assets/Canvas Mode.png)
 
 ## 🚀 Why KAIT OS?
 현재 많은 기업들이 B2C용 챗봇 프레임워크(LangChain 등)를 엔터프라이즈 환경에 억지로 끼워 맞추려다 **보안 통제 실패, 상태 유실, 레거시 연동의 한계**에 부딪히고 있습니다. 
